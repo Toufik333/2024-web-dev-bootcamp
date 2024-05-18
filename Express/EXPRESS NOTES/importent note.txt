@@ -1,0 +1,4 @@
+1. "type": "module",  //add this to package.json under main: above scripts:
+2. To run a file : node filename.extention
+
+

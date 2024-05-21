@@ -1,4 +1,16 @@
+0.npm init -y  ------- then------ npm install express//where is your Server
 1. "type": "module",  //add this to package.json under main: above scripts:
 2. To run a file : node filename.extention
+3. ctrl + c to exit a terminal process
+4. nodemon == if file changes it automaticly restarts Server
+5.sudo npm install -g nodemon // for permission i am using sudo
+6.res is used to send data to the server
+7.get request is used to get data from the server
+8.Put request is used to update data on the server
+9.Patch request is used to update data on the server
+10.body-parser(pre-processing) is a MIDDLEWEAR //MIDDLEWEAR checks data if its dublicate hacking or something else in a word data checker
+11.Morgan (logging) MIDDLEWEAR
+12.app.use(bodyParser.urlencoded()): Makes the req.body object available
+
 
 
